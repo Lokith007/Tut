@@ -1,12 +1,18 @@
+require("dotenv").config(); 
 require("@nomicfoundation/hardhat-toolbox");
-require("dotenv").config(); // Load from .env
+
+console.log("RPC:", process.env.RPC_URL);
+console.log("KEY:", process.env.PRIVATE_KEY);
 
 module.exports = {
   solidity: "0.8.28",
+  paths: {
+    sources: "./backend/block_chain", // ✅ FIXED HERE
+  },
   networks: {
     sepolia: {
-      url: process.env.RPC_URL, // Infura Sepolia RPC from .env
-      accounts: [process.env.PRIVATE_KEY], // Private key (0x-prefixed)
+      url: process.env.RPC_URL, 
+      accounts: [process.env.PRIVATE_KEY], 
     },
   },
 };

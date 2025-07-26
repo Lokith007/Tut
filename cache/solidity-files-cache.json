@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Dhanvanth\\OneDrive\\文档\\Tutedude\\TuteDude\\backend\\block_chain\\logic.sol": {
+      "lastModificationDate": 1753546799763,
+      "contentHash": "96d5c03ed8c119bb6b9c3292d0892b78",
+      "sourceName": "backend/block_chain/logic.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ProductTracking"
+      ]
+    }
+  }
+}
